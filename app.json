@@ -79,7 +79,7 @@
         },
         "FORCE_SUB":{
             "description": "Set to true to force a new subscription",
-            "required": false,
+            "required": true,
             "value": "False"
         },
         "HELP_TEXT": {
