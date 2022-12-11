@@ -9,8 +9,8 @@
         "bot"
     ],
     "repository": "https://github.com/Greymattersbot/Link-Search-Bot-Pro",
-    "website": "https://telegram.dog/@Rk_botz",
-    "success_url": "https://t.me/@Rk_botz",
+    "website": "https://telegram.dog/Rk_botz",
+    "success_url": "https://t.me/Rk_botz",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org or @TeleORG_Bot"
