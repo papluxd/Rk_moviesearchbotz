@@ -30,11 +30,7 @@ We have to use Bot for Inline Search & Userbot for Searching in Channels. So bot
 
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/GreyMattersBot/Link-Search-Bot-Pro&branch=main&name=urlshortautofilterbot)
 </details>
-<a href="https://render.com/deploy?repo=https://github.com/Rishi09090909/Movie_searchbot">
 
-  <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
-
-</a>
 # Credits
 
 - Special Thanks to Original Developer @Royalkrrishna.
