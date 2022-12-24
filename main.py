@@ -136,7 +136,6 @@ async def message_handler(event):
         message = f'**Click Here 👇 For "{event.text}"**\n\n[🍿🎬 {str(event.text).upper()}\n🍿🎬 {str("Click me for results").upper()}]({tgraph_result})'
         
         newbutton = [Button.url('🍿update channel 🍿',
-
                                     f'https://t.me/rk_update')]
         
         await txt.delete()
