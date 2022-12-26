@@ -28,11 +28,6 @@ Mᴀᴅᴇ Wɪᴛʜ ❤ Bʏ
 
 @Rk_botowner
 
-
-
-
-
-
 ''')
     START_PHOTO = os.getenv("START_PHOTO", "https://telegra.ph/file/99e311290ec06486bcc8f.jpg")
     HOME_TEXT = os.getenv("HOME_TEXT", '''ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕
