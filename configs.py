@@ -20,15 +20,21 @@ class Config(object):
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", '''Hᴇʏ! {} 😅,
 
-Mᴇ! Sʜᴀʀᴇᴅɪꜱᴋ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Bᴏᴛ.🤖
+Mᴇ! Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Bᴏᴛ.🤖
 
 I Cᴀɴ Sᴇᴀʀᴄʜ Mᴏᴠɪᴇꜱ Fᴏʀ Yᴏᴜ.🔍
 
 Mᴀᴅᴇ Wɪᴛʜ ❤ Bʏ
+
 @Rk_botowner
 
+
+
+
+
+
 ''')
-    START_PHOTO = os.getenv("START_PHOTO", "https://telegra.ph/file/0a066a392357f9fec78d2.jpg")
+    START_PHOTO = os.getenv("START_PHOTO", "https://telegra.ph/file/99e311290ec06486bcc8f.jpg")
     HOME_TEXT = os.getenv("HOME_TEXT", '''ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕
 
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ,
