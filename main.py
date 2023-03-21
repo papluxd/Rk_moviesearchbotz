@@ -49,7 +49,7 @@ async def message_handler(event):
 
 **You Have To Join Our Update Channel To Use Me ✅**
 
-**Click Bellow Button To Join Now.👇🏻**''', buttons=Button.url('🍿Updates Channel🍿', f'https://t.me/{Config.UPDATES_CHANNEL_USERNAME}'))
+**Click Bellow Button To Join Now.👇🏻**''', buttons=Button.url('❣️𝗨𝗣𝗗𝗔𝗧𝗘 𝗖𝗛𝗔𝗡𝗡𝗘𝗟❣️', f'https://t.me/{Config.UPDATES_CHANNEL_USERNAME}'))
             await asyncio.sleep(Config.AUTO_DELETE_TIME)
             return await haha.delete()
 
@@ -113,8 +113,8 @@ async def message_handler(event):
             newbutton = [Button.url('Click To Check Spelling ✅',
                                     f'http://www.google.com/search?q={event.text.replace(" ", "%20")}%20Movie')], [
                             Button.url('Click To Check Release Date 📅',
-                                    f'http://www.google.com/search?q={event.text.replace(" ", "%20")}%20Movie%20Release%20Date')],[Button.url('🍿Request to admin🍿',
-                                    f'https://t.me/RequestyourMovieherebot')]
+                                    f'http://www.google.com/search?q={event.text.replace(" ", "%20")}%20Movie%20Release%20Date')],[Button.url('📍𝗥𝗘𝗤𝗨𝗘𝗦𝗧 𝗧𝗢 𝗔𝗗𝗠𝗜𝗡📍',
+                                    f'https://t.me/TG_TR_support_bot')]
             await txt.delete()
             result = await event.reply(answer, buttons=newbutton, link_preview=False)
             await asyncio.sleep(Config.AUTO_DELETE_TIME)
@@ -133,11 +133,11 @@ async def message_handler(event):
             title=event.text,
             author=Config.BOT_USERNAME
         )
-        message = f'**Click Here 👇 For "{event.text}"**\n\n[🍿🎬 {str(event.text).upper()}\n🍿🎬 {str("Click me for results").upper()}]({tgraph_result})'
+        message = f'**Click Here  "{event.text}"**\n\n[📽️🔎 {str(event.text).upper()}\n📽️🔎 {str("Click me for results").upper()}]({tgraph_result})'
         
-        newbutton = [Button.url('🍿update channel 🍿',
+        newbutton = [Button.url('❣️𝗨𝗣𝗗𝗔𝗧𝗘 𝗖𝗛𝗔𝗡𝗡𝗘𝗟❣️',
 
-                                    f'https://t.me/rk_update')]
+                                    f'https://t.me/Technical_rakesh_01')]
         await txt.delete()
         result = await event.reply(message, link_preview=False)
         await asyncio.sleep(Config.AUTO_DELETE_TIME)
@@ -178,7 +178,7 @@ print(f"""
  _____________________________________________   
 |                                             |  
 |          Deployed Successfully              |  
-|              Join @{Config.UPDATES_CHANNEL_USERNAME}                 |
+|              Join @only_botz                |
 |_____________________________________________|
     """)
 
