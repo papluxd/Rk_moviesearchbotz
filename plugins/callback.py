@@ -73,7 +73,7 @@ async def request_access_handler(c:Client,query: CallbackQuery):
             ],
             [
                 
-                InlineKeyboardButton('Close', callback_data=f'delete'),
+                InlineKeyboardButton('❄ 𝐂𝐋𝐎𝐒𝐄 ❄', callback_data=f'delete'),
             ],
 
         ])      
@@ -97,11 +97,11 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ],
                     [
                         InlineKeyboardButton("Home", callback_data="gohome"),
-                        InlineKeyboardButton("Help", callback_data="Help_msg")
+                        InlineKeyboardButton("♻️ HΞLᎮ ♻️", callback_data="Help_msg")
                     ]
                 ]
             ),
@@ -114,10 +114,10 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ], 
                                         [
-                        InlineKeyboardButton("About", callback_data="About_msg"),
+                        InlineKeyboardButton("♻️ ΛBOUT ♻️", callback_data="About_msg"),
                         InlineKeyboardButton("Home", callback_data="gohome")
                     ]
                 ]
@@ -131,11 +131,11 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                                        [
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ],
                     [
-                        InlineKeyboardButton("About", callback_data="About_msg"),
-                        InlineKeyboardButton("Help", callback_data="Help_msg")
+                        InlineKeyboardButton("♻️ ΛBOUT ♻️", callback_data="About_msg"),
+                        InlineKeyboardButton("♻️ HΞLᎮ ♻️", callback_data="Help_msg")
                     ]
                 ]
             ),
