@@ -49,7 +49,7 @@ async def message_handler(event):
 
 **You Have To Join Our Update Channel To Use Me ✅**
 
-**Click Bellow Button To Join Now.👇🏻**''', buttons=Button.url('❣️𝗨𝗣𝗗𝗔𝗧𝗘 𝗖𝗛𝗔𝗡𝗡𝗘𝗟❣️', f'https://t.me/{Config.UPDATES_CHANNEL_USERNAME}'))
+**Click Bellow Button To Join Now.👇🏻**''', buttons=Button.url('🔥 JOIИ UᎮDΛTΞS CHΛИИΞL 🔥', f'https://t.me/{Config.UPDATES_CHANNEL_USERNAME}'))
             await asyncio.sleep(Config.AUTO_DELETE_TIME)
             return await haha.delete()
 
@@ -135,7 +135,7 @@ async def message_handler(event):
         )
         message = f'**Click Here  "{event.text}"**\n\n[📽️🔎 {str(event.text).upper()}\n📽️🔎 {str("Click me for results").upper()}]({tgraph_result})'
         
-        newbutton = [Button.url('❣️𝗨𝗣𝗗𝗔𝗧𝗘 𝗖𝗛𝗔𝗡𝗡𝗘𝗟❣️',
+        newbutton = [Button.url('🔥 JOIИ UᎮDΛTΞS CHΛИИΞL 🔥',
 
                                     f'https://t.me/Technical_rakesh_01')]
         await txt.delete()
