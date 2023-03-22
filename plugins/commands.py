@@ -10,11 +10,11 @@ async def help_handler(_, event: Message):
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
             [
-            InlineKeyboardButton('➕ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏𝐒 ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ],
 
-             [InlineKeyboardButton("𝐀𝐁𝐎𝐔𝐓 📝", callback_data="About_msg"),
-             InlineKeyboardButton("𝐇𝐄𝐋𝐏🤦", callback_data="Help_msg")
+             [InlineKeyboardButton("♻️ ΛBOUT ♻️", callback_data="About_msg"),
+             InlineKeyboardButton("♻️ HΞLᎮ ♻️", callback_data="Help_msg")
              ]
         ])
     )                        
@@ -35,11 +35,11 @@ async def start_handler(_,event: Message):
         caption=Config.START_MSG.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
             [
-            InlineKeyboardButton('➕ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏𝐒 ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ],
 
-             [InlineKeyboardButton("𝐀𝐁𝐎𝐔𝐓 📝", callback_data="About_msg"),
-             InlineKeyboardButton("𝐇𝐄𝐋𝐏🤦", callback_data="Help_msg")
+             [InlineKeyboardButton("♻️ ΛBOUT ♻️", callback_data="About_msg"),
+             InlineKeyboardButton("♻️ HΞLᎮ ♻️", callback_data="Help_msg")
              ]
         ])
     )
